@@ -23,12 +23,12 @@ interface User {
 })
 export class LoginPage {
 
+  //Variables
   uid: string;
   email: string;
   displayName?: string;
   user: Observable<User>;
   
-
   constructor(public navCtrl: NavController,
               public navParams: NavParams,
               private afAuth: AngularFireAuth,
@@ -46,13 +46,23 @@ export class LoginPage {
       }
     })
   }
-
-
-
-              
+     
   /*Login with basic email and password authentication */
   emailPasswordLogin() {
-        this.navCtrl.push(HomePage);      
+    //local variables
+    var userEmail, password;
+    firebase.auth().signInWithEmailAndPassword(userEmail, password).catch(function(error) {
+      // Handle Errors here.
+      var errorCode = error.code;
+      var errorMessage = error.message;
+      
+      if(errorCode == 'auth/wrong-password') {
+        alert('Wrong password.');
+      } else {
+        alert(errorMessage);
+      }
+      console.log(error);
+    });
   }
               
   /*Login for facebook authentication */
