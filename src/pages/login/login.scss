@@ -1,0 +1,60 @@
+page-login {
+    body{ 
+ /* uptown: */
+ 
+ 
+ /* Rectangle 3: */
+ 
+// background-image: linear-gradient(-180deg, #FFFFFF 0%, #E3E3E3 100%),url("/assets/school.jpg");
+opacity: 0.85; 
+
+background-image:url("/assets/school.jpg");
+
+border: 1px solid #979797; 
+     }
+.body{
+    padding-top:100px;
+}
+ .container{
+     //padding:10px;
+     padding-left:20px;
+     padding-right: 20px;
+ }
+ .credentials{
+  
+     opacity:0.85;
+     position:fixed;
+     top:45%;
+    
+   
+    
+ }
+ .connect{ 
+     /* OR CONNECT WITH: */
+ font-family: Times-Roman;
+ font-size: 18px;
+ color: #797979;
+ letter-spacing: 1.43px;
+ //bottom:20%;
+  
+ }
+ .logo{
+//background-color:#000 !important;
+
+padding-left:75px;
+
+ }
+ .username{
+     /* USERNAME: */
+ font-family: Times-Roman;
+ font-size: 36px;
+ color: #C6B90A;
+ letter-spacing: 1.43px;
+ }
+ .username_input{
+     font-family: Times-Roman;
+ font-size: 12px;
+ color: #B4B1B5;
+ letter-spacing: 1.43px;
+ }
+ }
