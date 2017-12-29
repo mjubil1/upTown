@@ -1,0 +1,84 @@
+page-pagination {
+
+    #btn1
+    {
+        background-color: grey;
+    }
+
+    #btn2
+    {
+        background-color: yellow;
+    }
+
+    div.swiper-pagination {
+        top: 80%;
+        bottom: inherit;
+    }
+
+    //Used to change the colors of the ion-slides pager dots.
+    .swiper-pagination {
+        padding: 3px;
+        bottom:0px;
+        .swiper-pagination-bullet {
+            background: white;
+            margin: 0 3px;
+        }
+    }
+
+    ion-content
+    { 
+        position: absolute;
+        opacity: .85;
+        background: linear-gradient(to bottom, rgba(133,133,133,1), rgba(0,0,0,.25)), url("../assets/img/loginBackground.png");
+    }
+
+    img {
+        height: 65px;
+        width: 117px;
+        margin-top: 50%;
+        margin-left: 35%;
+    }
+
+    .btn-container .button 
+    {
+        color: white;
+        padding: 25px 51px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+        font-size: 16px;
+        float: left;
+    }
+
+    .btn-container .button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+    }
+
+    .btn-container
+    {
+        width: 100%;
+        position: absolute; 
+        margin: 0 auto;           
+        bottom: 0;
+    }
+
+    .div.btn-container
+    {
+        text-align: center;
+    }
+
+    .txt-container
+    {
+        position: relative;
+        bottom: -150px;
+    }
+
+    .txtPag
+    {
+        text-align: center;
+        font-size: 16px;
+        color: #FFFFFF;
+        margin: 0 auto;
+    }
+} 

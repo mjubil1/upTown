@@ -1,0 +1,57 @@
+page-home {
+     
+    //Used to move the pager dots around.
+    div.swiper-pagination 
+    {
+        top: 42%;
+        bottom: inherit;
+    }
+
+    ion-navbar 
+    {
+        letter-spacing: .10em;
+    }
+
+    p
+    {
+        color: #FFFFFF;
+        font-size: 14px;
+    }
+    
+    .body 
+    {
+        background: linear-gradient(to bottom, rgba(133,133,133,.6), rgba(0,0,0,.25));
+    }
+
+    .help
+    {
+        border: 1px solid #FFFFFF;
+        border-radius: 50%;
+        font-size: 14px;
+        color: #FFFFFF; //defines color of help icon
+    }
+
+    .menu 
+    {
+        color: #FFFFFF;
+    }
+
+    //Used to change the colors of the ion-slides pager dots.
+    .swiper-pagination {
+        bottom:0px;
+        .swiper-pagination-bullet {
+            background: gold;
+            margin: 0 3px;
+        }
+    }
+
+    .toolbar-background
+    {
+        background: linear-gradient(to top, rgba(133,133,133,.2), rgba(0,0,0,.8));
+    }
+
+    .toolbar-title-ios 
+    {
+        color: #FFFFFF;
+    }
+}

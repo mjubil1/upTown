@@ -1,60 +1,94 @@
-page-login {
-    body{ 
- /* uptown: */
- 
- 
- /* Rectangle 3: */
- 
-// background-image: linear-gradient(-180deg, #FFFFFF 0%, #E3E3E3 100%),url("/assets/school.jpg");
-opacity: 0.85; 
+page-login 
+{   
+    #bold 
+    {
+        font-weight: bold;
+    }
 
-background-image:url("/assets/school.jpg");
-
-border: 1px solid #979797; 
-     }
-.body{
-    padding-top:100px;
-}
- .container{
-     //padding:10px;
-     padding-left:20px;
-     padding-right: 20px;
- }
- .credentials{
-  
-     opacity:0.85;
-     position:fixed;
-     top:45%;
+    form
+    {
+        margin-top: 125px;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: inline-block;
+        text-align: center;
+    }
     
-   
+    ion-content
+    { 
+        position: relative;
+        opacity: .85;
+        background: linear-gradient(to bottom, rgba(133,133,133,1), rgba(0,0,0,.25)), url("../assets/img/loginBackground.png");
+    }
+
+    ion-input[type="email"],ion-input[type="password"]
+    {
+        font-family: HelveticaNeue-Medium;
+        letter-spacing: 1.43;
+        margin: 5px !important;
+        padding: 0 !important;
+        margin-left: 0px !important;
+        font-size: 12px;
+        color: #FFFFFF !important;
+    }
+     
+    img {
+        height: 65px;
+        width: 117px;
+        margin-top: 25%;
+        margin-left: 29%;
+    }
+
+    ion-label
+    {
+        font-family: HelveticaNeue-Medium;
+        letter-spacing: 1.43;
+        margin: 5px !important;
+        padding: 0 !important;
+        margin-left: 0px !important;
+        font-size: 12px;
+        color: #FFFFFF !important;
+    }
     
- }
- .connect{ 
-     /* OR CONNECT WITH: */
- font-family: Times-Roman;
- font-size: 18px;
- color: #797979;
- letter-spacing: 1.43px;
- //bottom:20%;
-  
- }
- .logo{
-//background-color:#000 !important;
+    .container 
+    {  
+        padding:10px;
+        margin-top: 20%;
+    }
+        
+    .item.item-trns 
+    {
+        background: rgba(216,216,216,0.10);
+        border: 2px solid #ffffff;
+        border-radius: 12px;
+        border-width: 2px 2px 2px 2px;
+        margin-bottom: 8px;
+    }
 
-padding-left:75px;
+    .forgotpwd 
+    { 
+        font-family: HelveticaNeue-Medium;
+        font-size: 10px;
+        color: #FFFFFF;
+        letter-spacing: 1px;
+        margin: 10px auto;
+    }
+    
+    .signIn 
+    {
+        background: rgba(216,216,216,0.13);
+        border: 1px solid #ffffff;
+        border-radius: 12px;
+        border-width: 2px 2px 2px 2px;
+        color: #FFFFFF !important;        
+        font-size: 15px;
+        margin-top: 10px;
+        padding: 14px 50px;
+    }
 
- }
- .username{
-     /* USERNAME: */
- font-family: Times-Roman;
- font-size: 36px;
- color: #C6B90A;
- letter-spacing: 1.43px;
- }
- .username_input{
-     font-family: Times-Roman;
- font-size: 12px;
- color: #B4B1B5;
- letter-spacing: 1.43px;
- }
- }
+    .socialBtn 
+    {        
+        margin-left: 40%;
+        padding-top: 40px;  
+    }
+}    

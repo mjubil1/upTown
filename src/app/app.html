@@ -1,1 +1,48 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-menu [content]="nav" persistent="true">
+    <ion-content>
+        <div class="background">
+            <div class="photo-container">
+                <div id="side-menu-photo">
+                    
+                </div>
+                <div id="side-menu-usrname">
+                    <p>First Last</p>
+                </div>
+            </div>
+            <div class="side-menu-container">
+                <div class="s-btn-container">
+                    <button class="s-btn"
+                        (click)="onLoad(homePage)"
+                        icon-left>
+                    <ion-icon name="ios-home-outline"
+                              ></ion-icon>
+                    Home</button>
+                </div>
+                <div class="s-btn-container">
+                    <button class="s-btn"
+                        (click)="onLoad(redeemPage)"
+                        icon-left>
+                    <ion-icon name="ios-add-outline"></ion-icon>
+                    Redeem Points</button>
+                </div>
+                <div class="s-btn-container">
+                    <button class="s-btn"
+                        (click)="onLoad(settingPage)"
+                        icon-left>
+                    <ion-icon name="ios-settings-outline"></ion-icon>
+                    Settings</button>
+                </div>
+                <div class="s-btn-container">
+                    <button class="s-btn"
+                        (click)="onLogout()"
+                        icon-left>
+                    <ion-icon name="ios-arrow-back-outline"></ion-icon>
+                    Logout</button>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-menu>
+
+
+<ion-nav [root]="rootPage" #nav></ion-nav>

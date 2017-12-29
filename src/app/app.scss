@@ -14,3 +14,68 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+@font-face 
+{
+    font-family: HelveticaNeue-Medium;
+    src: url('    ../../assets/fonts/helveticaneue/HelveticaNeue Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#side-menu-photo
+{
+    background-color:red;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: 15%;
+}
+
+#side-menu-usrname
+{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.background{
+    background: linear-gradient(to bottom, rgba(133,133,133,1), rgba(0,0,0,.25)), url("../assets/img/loginBackground.png");        
+    height: 100%;
+}
+
+
+.s-btn
+{
+    background-color: transparent;
+    text-align:center;
+    font-size: 16px;
+    letter-spacing: 1.43;
+    display: inline-block;
+    color:#FFFFFF;
+}
+
+.photo-container
+{
+    text-align:center;
+}
+
+.side-menu-container
+{
+    width: 100%;
+    margin-top: 50%;
+}
+
+.s-btn-container
+{
+    text-align: left;
+    margin-left: 10%;
+    padding:7px;
+}
+
+.scroll-content 
+{
+    overflow-y: hidden;
+}

@@ -1,0 +1,93 @@
+<ion-content padding>
+    
+        <!-- Registration layout -->
+        <form #myForm="ngForm" (ngSubmit)="onSignUp(myForm)">
+          <div class="parent-div">
+            <div class="photo">
+              <div class="child-child-div">
+                <a href="">
+                  <i class="icon camera">
+                    <ion-icon name="ios-camera-outline"></ion-icon>
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <ion-list>
+            <ion-item class="item item-trns" id="item1">
+                <ion-input type="text"
+                           name="fName"
+                           #fname = "ngModel" 
+                           ngModel
+                           placeholder="FIRST NAME"
+                           required></ion-input>
+            </ion-item>
+            <div [hidden]="fname.valid || fname.pristine"
+                 class="alert-danger">
+              This is required
+            </div>
+            <ion-item class="item item-trns">
+              <ion-input type="text" 
+                         name="lName"
+                         #lname = "ngModel" 
+                         ngModel
+                         placeholder="LAST NAME"                         
+                         required></ion-input>
+            </ion-item>
+          <div [hidden]="lname.valid || lname.pristine"
+                class="alert-danger">
+            This is required
+          </div>
+          <ion-item class="item item-trns">
+            <ion-input type="email"
+                       name="usrEmail"
+                       #myEmail = "ngModel" 
+                       ngModel
+                       placeholder="EMAIL"                       
+                       required></ion-input>
+                </ion-item>
+                <div [hidden]="myEmail.valid || myEmail.pristine"
+                     class="alert-danger">
+                  This is required
+                </div>
+                <ion-item class="item item-trns">
+                    <ion-input type="password"
+                               name="pwd"
+                               #pwd = "ngModel" 
+                               ngModel
+                               placeholder="PASSWORD"                               
+                               required></ion-input>
+                </ion-item>
+                <div [hidden]="pwd.valid || pwd.pristine"
+                     class="alert-danger">
+                  This is required
+                </div>
+                <ion-item class="item item-trns">
+                    <ion-input type="password" 
+                               name="conPwd"
+                               #conpwd = "ngModel" 
+                               ngModel
+                               placeholder="CONFIRM PASSWORD"                               
+                               required></ion-input>
+                </ion-item>
+                <div [hidden]="conpwd.valid || conpwd.pristine"
+                     class="alert-danger">
+                  This is required
+                </div>
+                <ion-item class="item item-trns">
+                  <ion-label>GENDER (optional)</ion-label>
+                  <ion-select name="gender" ngModel>
+                    <ion-option value="female">Male</ion-option>
+                    <ion-option value="male">Female</ion-option>
+                  </ion-select>           
+                </ion-item>
+            
+          </ion-list>      
+      
+          <!-- Sign up button-->
+          <div padding>
+            <button ion-button type="submit" class="signUp" id="bold"
+                    [disabled]="!myForm.form.valid">Sign up</button>
+          </div>
+        </form >
+  </ion-content>

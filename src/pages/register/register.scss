@@ -1,0 +1,131 @@
+page-register {
+    #bold 
+    {
+        font-weight: bold;
+    }
+    #item1 
+    {
+        border-top: none;
+    }
+
+    form 
+    {
+        margin-top: 35%;
+        //margin-top: 125px;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: inline-block;
+        text-align: center;
+    }
+
+    ion-content
+    { 
+        
+        position: relative;
+        opacity: .75;
+        background: linear-gradient(to bottom, rgba(133,133,133,1), rgba(0,0,0,.25)), url("../assets/img/loginBackground.png");
+    }
+
+    ion-input[type="text"], ion-input[type="password"],ion-input[type="email"] 
+    {
+        font-family: HelveticaNeue-Medium;
+        letter-spacing: 1.43;
+        margin: 5px !important;
+        padding: 0 !important;
+        margin-bottom: -24px !important;
+        margin-left: 0px !important;
+        font-size: 12px;
+        color: #FFFFFF !important;
+    }
+
+    ion-icon 
+    {
+        font-size: 70px;
+        margin-top: 15%;
+        margin-left: 27%;
+        display: inline-block;        
+    }
+
+    ion-label 
+    {
+        font-family: HelveticaNeue-Medium;
+        letter-spacing: 1.43; 
+        margin: 5px !important;
+        padding: 0 !important;
+        margin-left: 0px !important;
+        font-size: 12px;
+        color: #FFFFFF !important;
+    }
+       
+    .alert-danger 
+    {
+        font-family: HelveticaNeue-Medium;
+        font-size: 11px; 
+        color: #D8000c;
+        margin-left: 12.3px;        
+        text-align: left;
+    }
+
+    .camera 
+    {
+        color: #FFFFFF;
+        margin: 0 auto;
+    }
+
+    .child-child-div
+    {
+        margin-right: 20%;
+    }
+
+    .signUp 
+    {
+        background: rgba(216,216,216,0.13);
+        border: 1px solid #ffffff;
+        border-radius: 12px;
+        border-width: 2px 2px 2px 2px;
+        color: #FFFFFF !important;        
+        font-size: 15px;
+        margin-top: 70px;
+        padding: 14px 50px;
+    }
+
+    .item.item-trns 
+    {
+        float: left;
+        clear: none;
+        border-color: rgba(0,0,0,0);
+        background-color: rgba(0,0,0,0);
+    }
+
+    .parent-div 
+    {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .photo 
+    {
+        background: rgba(216,216,216,0.35);      
+        border-radius: 100%;
+        width: 40%;
+        height: 20%; 
+        margin: 0 auto;
+    }
+
+    .text-input::-moz-placeholder 
+    {
+        color: white;
+    }
+      
+    .text-input:-ms-input-placeholder 
+    {
+        color: white;
+    }
+      
+    .text-input::-webkit-input-placeholder 
+    {
+        text-indent: 0;
+        color: white;
+    }
+   
+}
