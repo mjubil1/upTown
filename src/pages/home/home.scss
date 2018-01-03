@@ -20,7 +20,7 @@ page-home {
     
     .body 
     {
-        background: linear-gradient(to bottom, rgba(133,133,133,.6), rgba(0,0,0,.25));
+        background: linear-gradient(-180deg, #494949 0%, #000000 100%);//linear-gradient(to bottom, rgba(133,133,133,.6), rgba(0,0,0,.25));
     }
 
     .help
@@ -53,5 +53,35 @@ page-home {
     .toolbar-title-ios 
     {
         color: #FFFFFF;
+    }
+    #button{
+        
+        height:25px;
+        width:25px;
+        position:absolute;
+        top:27px;
+        right:17px;
+       
+    }
+    .icon{
+        font-size:22px;
+    }
+    .title{
+        margin-right:65px;
+        //text-align: center; 
+
+    }
+    .title2{
+        margin-right:125px;
+    }
+    .title3{
+        margin-right:185px;
+    }
+    .title4{
+        margin-right: 245px;
+    }
+    .navbar{
+        //border-width: 10px;
+       // border-color:white;
     }
 }

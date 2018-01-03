@@ -61,6 +61,7 @@ page-login
         padding:10px;
         margin-top: 30%;
         margin-left: 10%;
+        //top:200px;
     }
         
     .item.item-trns 
@@ -70,6 +71,7 @@ page-login
         border-radius: 12px;
         border-width: 2px 2px 2px 2px;
         margin-bottom: 8px;
+       
     }
 
     .forgotpwd 
@@ -91,17 +93,20 @@ page-login
         font-size: 15px;
         margin-top: 10px;
         padding: 14px 50px;
+        //margin:auto;
     }
 
     .social{
         display:block;
-        margin:auto;
+        //margin:auto;
+        padding-left:30px;
     }
     .socialBtn 
     {        
         margin-left: 40%;
         padding-top: 40px;  
     }
+    
     #button{
         height:25px;
         width:25px;
@@ -112,5 +117,23 @@ page-login
         height:25px;
         width:25px;
         margin-left:2.5%;
+    }
+    .icon{
+        font-size: 20px;
+        padding-right:15px;
+        //padding-bottom:10px;
+       // padding-top: 10px;
+       
+       
+    }
+    .some_class{
+        color:white;
+        font-size:12px;
+        //display:block;
+       // margin:auto;
+        padding-left:30px;
+        top:0px;
+        
+       
     }
 }    

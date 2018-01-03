@@ -28,8 +28,8 @@
 {
     background-color:red;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 145px;
+    width: 145px;
     margin: 0 auto;
     display: inline-block;
     margin-top: 15%;
@@ -42,8 +42,10 @@
 }
 
 .background{
-    background: linear-gradient(to bottom, rgba(133,133,133,1), rgba(0,0,0,.25)), url("../assets/img/loginBackground.png");        
+    background: linear-gradient(to bottom, rgba(0,0,0,.9)), url("../assets/img/loginBackground.png");        
     height: 100%;
+    //opacity: .25;
+   // background: #000000;
 }
 
 
@@ -65,7 +67,9 @@
 .side-menu-container
 {
     width: 100%;
-    margin-top: 50%;
+    margin-top: 20%;
+    margin-left:20px;
+
 }
 
 .s-btn-container

@@ -15,7 +15,7 @@ import { RegisterPage } from '../pages/register/register';
 })          
 export class MyApp {
 
-  rootPage:any = PaginationPage;  
+  rootPage:any = HomePage;  
   homePage = HomePage;
   redeemPage = RedeemPage;
   settingPage = SettingPage;

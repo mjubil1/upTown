@@ -11,8 +11,8 @@
         <form #myForm="ngForm" (ngSubmit)="onSignIn(myForm)">                    
             <ion-list> 
                 <ion-item class="item item-trns">
-                    <ion-label>
-                    <ion-icon name="mail"></ion-icon>
+                    <ion-label class="some_class">
+                    <ion-icon class="icon" name="mail"></ion-icon>
                         EMAIL</ion-label>
                     <ion-input type= "email"
                                name="email"
@@ -22,7 +22,7 @@
                 
                 <ion-item class="item item-trns">
                     <ion-label>
-                    <ion-icon name="lock"></ion-icon>
+                    <ion-icon class="icon" name="lock"></ion-icon>
                         PASSWORD</ion-label>
                     <ion-input type= "password"
                                name="pwd"
@@ -37,7 +37,9 @@
             </div> 
         </form>        
     </div>
-            
+            <!--
+
+            -->
     <!--Connect With Facebook or Google-->
 
   <!--  <ion-list class="socialBtn">

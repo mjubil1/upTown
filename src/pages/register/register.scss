@@ -24,6 +24,7 @@ page-register {
         position: relative;
         opacity: .75;
         background: linear-gradient(to bottom, rgba(133,133,133,1), rgba(0,0,0,.25)), url("../assets/img/loginBackground.png");
+        background-size:500px 670px;
     }
 
     ion-input[type="text"], ion-input[type="password"],ion-input[type="email"] 
@@ -41,7 +42,7 @@ page-register {
     ion-icon 
     {
         font-size: 70px;
-        margin-top: 15%;
+        margin-top: 25%;
         margin-left: 27%;
         display: inline-block;        
     }
@@ -75,6 +76,8 @@ page-register {
     .child-child-div
     {
         margin-right: 20%;
+       // padding-bottom:10%;
+       
     }
 
     .signUp 
@@ -107,8 +110,10 @@ page-register {
     {
         background: rgba(216,216,216,0.35);      
         border-radius: 100%;
-        width: 40%;
-        height: 20%; 
+        //width: 40%;
+        //height: 20%; 
+        height: 125px;
+        width:125px;
         margin: 0 auto;
     }
 
